@@ -1,6 +1,6 @@
 import axios from 'axios';
 import { GET_ERROR, SECTORS_DATA,SAVED_DATA } from './constants'
-const API_URL = "http://localhost:5000/";
+const API_URL = "http://192.168.2.93:5000/";
 
 export const getSectorsData = () => async (dispatch) => {
     const response = await axios.get(API_URL);
